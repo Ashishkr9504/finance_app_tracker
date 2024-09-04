@@ -25,7 +25,7 @@ app.use(
 // app.use(cors());
 app.get("/", (req, res) => {
     res.setHeader("Access-Control-Allow-Credential", "true");
-    res.send("Api is running well baby-arijit");
+    res.send("Api is running well");
 });
 
 import userRoutes from "./routes/userRoutes.mjs";
