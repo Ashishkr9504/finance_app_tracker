@@ -16,6 +16,7 @@ app.use(
         origin: [
             "https://finance-edited-frontend.onrender.com",
             'http://localhost:3000',
+            'https://finance-app-tracker-ari-frontend.onrender.com',
         ],
         // origin: '*',
         methods: ["POST", "GET", "PUT", "DELETE", "PATCH"],
